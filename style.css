@@ -1,0 +1,94 @@
+.collapsible {
+  background-color: #757;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 250px;
+  border: 2px;
+  margin:2px;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
+div 
+.active, .collapsible:hover {
+  background-color: #cc9999;
+}
+
+div.content {
+  padding: 0 18px;
+  opacity: 0.95;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+    width: 280;
+}
+
+.content ol li {
+	font-family: sans-serif;
+}
+
+.left_menu {
+	position: absolute;
+	top: 100px;
+	left: 5px;
+	width:300px;
+color: black;}
+
+.right_menu {
+	position: absolute;
+	top: 100px;
+	left: 5px;
+	width:300px;
+	margin-left: 1125px;
+}
+
+.content_area {
+	position: absolute;
+	top: 100px;
+	width:900;
+	max-width:900:;
+	margin-left: 310px;
+}
+
+.header {
+	height: 75px;
+	color: black;
+	text-align: center;
+	}
+
+body {
+		padding: 0;
+		margin: 0;
+		background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSIxMDAiPgo8cmVjdCB3aWR0aD0iNTYiIGhlaWdodD0iMTAwIiBmaWxsPSIjZjhkMjAzIj48L3JlY3Q+CjxwYXRoIGQ9Ik0yOCA2NkwwIDUwTDAgMTZMMjggMEw1NiAxNkw1NiA1MEwyOCA2NkwyOCAxMDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZjYyOSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+CjxwYXRoIGQ9Ik0yOCAwTDI4IDM0TDAgNTBMMCA4NEwyOCAxMDBMNTYgODRMNTYgNTBMMjggMzQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZTUwMyIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+Cjwvc3ZnPg==");
+	 }
+
+h2 { 
+		font-size: x-large;
+	}
+
+ol {
+		background-color: #cccccc;
+		opacity: 0.7;
+		border: 2px solid black;
+		padding: 10px;
+		list-style: none;
+		width:250px;}
+
+ol li {
+		margin:	5px;
+		padding: 4px;
+		border-bottom: 3px solid #000000;
+		border-left: 10px solid #cc3333;
+		font-family: "Comic Sans MS";
+	}
+
+li a {
+		text-decoration: none;
+		color: black;
+	}
+
+li a:hover {
+		color: red;
+	}
